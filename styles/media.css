@@ -1,0 +1,35 @@
+@media screen and (max-width: 760px){
+    header{
+        flex-direction: column;
+    }
+
+    #title {
+        display: flex;
+        align-items: center;
+
+    }
+
+    #last-a {
+        margin-left: 20vw;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+    
+    img{
+        display: none;
+    }
+    
+    #two-first-inputs{
+        width: 80%;
+    }
+
+    #button-1 {
+        width: 70%;
+    }
+}

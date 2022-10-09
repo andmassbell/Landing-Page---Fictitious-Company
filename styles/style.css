@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1400vw;
+    margin: 0 auto;
+    /* padding: 15px; */
+}
+
+/* navegação da pagina */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title {
+    padding-left: 1vw;
+    flex-direction: column;
+    line-height: 30px;
+}
+
+#last-h1 {
+    color: rgb(190, 41, 41);
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(190, 41, 41);
+    transition: 0.3s all;
+}
+
+#last-a {
+    border: 2px solid  rgb(190, 41, 41);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#last-a:hover {
+    background-color: rgb(190, 41, 41);
+    color: white;
+
+}
+
+li {
+    display: inline-block;
+    padding: 2vh;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+/* fim da estilização de navegação */
+
+/* corpo principal */
+main {
+    display: flex;
+    flex-direction: row;
+    padding-top: 8vh;
+}
+
+h2 {
+    padding-left: 10vw;
+    font-size: 5.8vh;
+    line-height: 6vh;
+    font-family: poppinsmedium;
+}
+
+h4 {
+    padding-left: 10vw;
+}
+
+ul {
+    padding-right: 1vw;
+}
+
+#red-span {
+    color:  rgb(190, 41, 41);
+}
+
+p {
+    padding-left: 10vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    line-height: 2vh;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
+#main-image {
+    padding-left: 30vh;
+    width: 40vw;
+}
+
+/* direction dos dois inputs */
+#two-first-inputs {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10vw;
+    width: 70%;
+
+}
+
+/* margem entre os inputs */
+input{
+    height: 3vh;
+    padding: 1vh;
+    margin-top: 1.4rem;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+/* estilizando o elemento button */
+form [type="submit"] {
+    height: 5vh;
+    width: 50%;
+    background-color: rgb(190, 41, 41);
+    color: white;
+    font-weight: bold;
+}
+form [type="submit"]:hover {
+    cursor: pointer;
+}
+
+/* footer */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(circle at 38.89% 8.55%, #d9a32e 0, #e0992b 7.14%, #e68f2a 14.29%, #eb822b 21.43%, #ef752e 28.57%, #f16532 35.71%, #f35336 42.86%, #f23c3c 50%, #f01a43 57.14%, #ed004b 64.29%, #ea0056 71.43%, #e40061 78.57%, #dd006e 85.71%, #d4007c 92.86%, #c9008a 100%);
+    height: 10vh; 
+    
+    }
+
+#div-last {
+    display: flex;
+}
+
+
